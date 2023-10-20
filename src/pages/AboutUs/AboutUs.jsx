@@ -22,7 +22,7 @@ import Amisha from "../../assets/ami.jpg"
 
 const AboutUs = () => {
     return (
-        <Box sx={{color:'white', background:'linear-gradient(to right bottom, #111111, #333333)', height:{lg:'230vh', xs:'470vh'}}}>
+        <Box sx={{color:'white', background:'linear-gradient(to right bottom, #111111, #333333)', height:{lg:'230vh', xs:'490vh'}}}>
 
             <Grid container rowSpacing={2} >
                 <Grid item xs={12} lg={12} sx={{textAlign:'center', mt:{lg:10, xs:5}}}>
