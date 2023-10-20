@@ -22,7 +22,7 @@ import Amisha from "../../assets/ami.jpg"
 
 const AboutUs = () => {
     return (
-        <Box sx={{color:'white', background:'linear-gradient(to right bottom, #111111, #333333)', height:{lg:'230vh', xs:'470vh', sm:'470vh'}}}>
+        <Box sx={{color:'white', background:'linear-gradient(to right bottom, #111111, #333333)', height:{lg:'230vh', xs:'470vh'}}}>
 
             <Grid container rowSpacing={2} >
                 <Grid item xs={12} lg={12} sx={{textAlign:'center', mt:{lg:10, xs:5}}}>
@@ -244,8 +244,8 @@ const AboutUs = () => {
                 </Grid>
 
                 <Grid item xs={12} lg={6}>
-                    <Box sx={{textAlign:{xs:'center', lg:'left'}, height:'100%', margin:'auto'}}>
-                        <Typography variant='subtitle1' component='a' fontSize={{xs:12, lg:18}}>
+                    <Box sx={{textAlign:{xs:'center', lg:'left'}, height:'100%'}}>
+                        <Typography variant='subtitle1' component='a' fontSize={{xs:12, lg:18}} sx={{ mb:{md:6, sm:3, xs:3}}}>
                             <strong>Independent Director in Public Limited Company involved in Infrastructure development(RKEC).</strong> <br/> <br/>
 
                             <strong>Director, New Vision Realty </strong> <br/>
