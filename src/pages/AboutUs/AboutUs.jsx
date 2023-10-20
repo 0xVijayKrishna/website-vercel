@@ -245,7 +245,7 @@ const AboutUs = () => {
 
                 <Grid item xs={12} lg={6}>
                     <Box sx={{textAlign:{xs:'center', lg:'left'}, height:'100%'}}>
-                        <Typography variant='subtitle1' component='a' fontSize={{xs:12, lg:18}} sx={{ mb:5 }}>
+                        <Typography variant='subtitle1' component='a' fontSize={{xs:12, lg:18}} sx={{ mb:8 }}>
                             <strong>Independent Director in Public Limited Company involved in Infrastructure development(RKEC).</strong> <br/> <br/>
 
                             <strong>Director, New Vision Realty </strong> <br/>
